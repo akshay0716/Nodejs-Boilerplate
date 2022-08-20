@@ -25,9 +25,8 @@ if (process.env.NODE_ENV === "development") {
 app.engine(
   "hbs",
   expressHbs.engine({
+    defaultLayout: "main",
     extname: "hbs",
-    defaultLayout: false,
-    layoutsDir: "views/layouts/",
   })
 );
 app.set("view engine", "hbs");
