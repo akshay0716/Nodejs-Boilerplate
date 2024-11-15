@@ -6,20 +6,20 @@ name = "javascript"
   [analyzers.meta]
   plugins = [
     "react",
+    "angular",
     "vue",
     "ember",
     "meteor",
-    "angularjs",
-    "angular"
+    "angularjs"
   ]
   environment = [
     "nodejs",
-    "browser",
-    "jest",
-    "mocha",
-    "jasmine",
     "jquery",
+    "browser",
     "mongo",
+    "jest",
     "cypress",
-    "vitest"
+    "mocha",
+    "vitest",
+    "jasmine"
   ]
