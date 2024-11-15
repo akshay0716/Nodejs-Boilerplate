@@ -37,7 +37,7 @@ app.use("/", require("./routes/index"));
 
 const PORT = process.env.PORT || 5000;
 
-console.log("hello")
+console.log("hello from akshay")
 
 app.listen(
   PORT,
